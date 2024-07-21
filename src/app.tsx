@@ -5,118 +5,118 @@ import { Call } from "./types/CallInterface";
 import { CallCard } from "./components/call-card";
 
 export function App() {
+  // const calls: Call[] = [
+  //   {
+  //     id: "u87zgvsd0876dsyaag87",
+  //     category: "Hardware",
+  //     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur
+  //       vel cupiditate odio quas rem! Illum ipsam asperiores obcaecati, reiciendis
+  //       eaque deserunt, recusandae autem, rem vel voluptatum in nisi hic!`,
+  //     authorId: `87asfd6y7av0867dasf098`,
+  //     createdAt: new Date(),
+  //     updatedAt: new Date(),
+  //     author: {
+  //       username: "Maria",
+  //     },
+  //   },
+  //   {
+  //     id: "u87zgvsd0876dsyaag87",
+  //     category: "Software",
+  //     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur
+  //       vel cupiditate odio quas rem! Illum ipsam asperiores obcaecati, reiciendis
+  //       eaque deserunt, recusandae autem, rem vel voluptatum in nisi hic!`,
+  //     authorId: "87asfd6y7av0867dasf098",
+  //     createdAt: new Date(),
+  //     updatedAt: new Date(),
+  //     author: {
+  //       username: "Rodrygo",
+  //     },
+  //   },
+  //   {
+  //     id: "u87zgvsd0876dsyaag87",
+  //     category: "Hardware",
+  //     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur
+  //       vel cupiditate odio quas rem! Illum ipsam asperiores obcaecati, reiciendis
+  //       eaque deserunt, recusandae autem, rem vel voluptatum in nisi hic!`,
+  //     authorId: `87asfd6y7av0867dasf098`,
+  //     createdAt: new Date(),
+  //     updatedAt: new Date(),
+  //     author: {
+  //       username: "Maria",
+  //     },
+  //   },
+  //   {
+  //     id: "u87zgvsd0876dsyaag87",
+  //     category: "Software",
+  //     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur
+  //       vel cupiditate odio quas rem! Illum ipsam asperiores obcaecati, reiciendis
+  //       eaque deserunt, recusandae autem, rem vel voluptatum in nisi hic!`,
+  //     authorId: "87asfd6y7av0867dasf098",
+  //     createdAt: new Date(),
+  //     updatedAt: new Date(),
+  //     author: {
+  //       username: "Rodrygo",
+  //     },
+  //   },
+  //   {
+  //     id: "u87zgvsd0876dsyaag87",
+  //     category: "Hardware",
+  //     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur
+  //       vel cupiditate odio quas rem! Illum ipsam asperiores obcaecati, reiciendis
+  //       eaque deserunt, recusandae autem, rem vel voluptatum in nisi hic!`,
+  //     authorId: `87asfd6y7av0867dasf098`,
+  //     createdAt: new Date(),
+  //     updatedAt: new Date(),
+  //     author: {
+  //       username: "Maria",
+  //     },
+  //   },
+  //   {
+  //     id: "u87zgvsd0876dsyaag87",
+  //     category: "Software",
+  //     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur
+  //       vel cupiditate odio quas rem! Illum ipsam asperiores obcaecati, reiciendis
+  //       eaque deserunt, recusandae autem, rem vel voluptatum in nisi hic!`,
+  //     authorId: "87asfd6y7av0867dasf098",
+  //     createdAt: new Date(),
+  //     updatedAt: new Date(),
+  //     author: {
+  //       username: "Rodrygo",
+  //     },
+  //   },
+  //   {
+  //     id: "u87zgvsd0876dsyaag87",
+  //     category: "Hardware",
+  //     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur
+  //       vel cupiditate odio quas rem! Illum ipsam asperiores obcaecati, reiciendis
+  //       eaque deserunt, recusandae autem, rem vel voluptatum in nisi hic!`,
+  //     authorId: `87asfd6y7av0867dasf098`,
+  //     createdAt: new Date(),
+  //     updatedAt: new Date(),
+  //     author: {
+  //       username: "Maria",
+  //     },
+  //   },
+  //   {
+  //     id: "u87zgvsd0876dsyaag87",
+  //     category: "Software",
+  //     description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur
+  //       vel cupiditate odio quas rem! Illum ipsam asperiores obcaecati, reiciendis
+  //       eaque deserunt, recusandae autem, rem vel voluptatum in nisi hic!`,
+  //     authorId: "87asfd6y7av0867dasf098",
+  //     createdAt: new Date(),
+  //     updatedAt: new Date(),
+  //     author: {
+  //       username: "Rodrygo",
+  //     },
+  //   },
+  // ];
 
-  const calls: Call[] = [
-    {
-      id: "u87zgvsd0876dsyaag87",
-      category: "Hardware",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur
-        vel cupiditate odio quas rem! Illum ipsam asperiores obcaecati, reiciendis
-        eaque deserunt, recusandae autem, rem vel voluptatum in nisi hic!`,
-      authorId: `87asfd6y7av0867dasf098`,
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      author: {
-        username: "Maria",
-      },
-    },
-    {
-      id: "u87zgvsd0876dsyaag87",
-      category: "Software",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur
-        vel cupiditate odio quas rem! Illum ipsam asperiores obcaecati, reiciendis
-        eaque deserunt, recusandae autem, rem vel voluptatum in nisi hic!`,
-      authorId: "87asfd6y7av0867dasf098",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      author: {
-        username: "Rodrygo",
-      },
-    },
-    {
-      id: "u87zgvsd0876dsyaag87",
-      category: "Hardware",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur
-        vel cupiditate odio quas rem! Illum ipsam asperiores obcaecati, reiciendis
-        eaque deserunt, recusandae autem, rem vel voluptatum in nisi hic!`,
-      authorId: `87asfd6y7av0867dasf098`,
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      author: {
-        username: "Maria",
-      },
-    },
-    {
-      id: "u87zgvsd0876dsyaag87",
-      category: "Software",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur
-        vel cupiditate odio quas rem! Illum ipsam asperiores obcaecati, reiciendis
-        eaque deserunt, recusandae autem, rem vel voluptatum in nisi hic!`,
-      authorId: "87asfd6y7av0867dasf098",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      author: {
-        username: "Rodrygo",
-      },
-    },
-    {
-      id: "u87zgvsd0876dsyaag87",
-      category: "Hardware",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur
-        vel cupiditate odio quas rem! Illum ipsam asperiores obcaecati, reiciendis
-        eaque deserunt, recusandae autem, rem vel voluptatum in nisi hic!`,
-      authorId: `87asfd6y7av0867dasf098`,
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      author: {
-        username: "Maria",
-      },
-    },
-    {
-      id: "u87zgvsd0876dsyaag87",
-      category: "Software",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur
-        vel cupiditate odio quas rem! Illum ipsam asperiores obcaecati, reiciendis
-        eaque deserunt, recusandae autem, rem vel voluptatum in nisi hic!`,
-      authorId: "87asfd6y7av0867dasf098",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      author: {
-        username: "Rodrygo",
-      },
-    },
-    {
-      id: "u87zgvsd0876dsyaag87",
-      category: "Hardware",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur
-        vel cupiditate odio quas rem! Illum ipsam asperiores obcaecati, reiciendis
-        eaque deserunt, recusandae autem, rem vel voluptatum in nisi hic!`,
-      authorId: `87asfd6y7av0867dasf098`,
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      author: {
-        username: "Maria",
-      },
-    },
-    {
-      id: "u87zgvsd0876dsyaag87",
-      category: "Software",
-      description: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique tenetur
-        vel cupiditate odio quas rem! Illum ipsam asperiores obcaecati, reiciendis
-        eaque deserunt, recusandae autem, rem vel voluptatum in nisi hic!`,
-      authorId: "87asfd6y7av0867dasf098",
-      createdAt: new Date(),
-      updatedAt: new Date(),
-      author: {
-        username: "Rodrygo",
-      },
-    },
-  ];
-  // const {
-  //   data: calls,
-  //   isLoading,
-  //   error,
-  // } = useQuery<Call[]>({ queryKey: ["calls"], queryFn: getCalls });
+  const {
+    data: calls,
+    isLoading,
+    error,
+  } = useQuery<Call[]>({ queryKey: ["calls"], queryFn: getCalls });
 
   return (
     <div className="h-screen bg-zinc-900">
